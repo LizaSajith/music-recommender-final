@@ -1,0 +1,16 @@
+Songs after cleaning: 81343, features: 8
+Rank of normalised feature matrix: 8 / 8
+Eigenvalues: [2.874 1.421 1.    0.89  0.849 0.496 0.327 0.144]
+Explained variance ratio: [0.359 0.178 0.125 0.111 0.106 0.062 0.041 0.018]
+Cumulative top-2 / top-3: 0.537 / 0.662
+Matches SVD singular values^2/(n-1): True
+
+Loadings (rows=features):
+  danceability     +0.260  +0.527  +0.138
+  energy           +0.503  -0.283  -0.111
+  tempo            +0.208  -0.279  +0.128
+  valence          +0.302  +0.520  +0.255
+  acousticness     -0.435  +0.363  -0.040
+  instrumentalness -0.284  -0.349  +0.067
+  loudness         +0.517  -0.096  -0.003
+  speechiness      +0.086  +0.174  -0.939

@@ -1,0 +1,16 @@
+query,neighbour,artists,genre,cosine
+Shape of You,Tene,Larry Gaaga;Flavour,dancehall,0.984
+Shape of You,Un Dia Especial,Dora The Explorer,kids,0.98
+Shape of You,Go-Go Club - Raw,Vybz Kartel,j-dance,0.98
+Shape of You,Brujeria,El Gran Combo De Puerto Rico,salsa,0.98
+Shape of You,Pop the Bubbles,Patty Shukla,kids,0.977
+Bohemian Rhapsody - Remastered 2011,The Passion (Live Acoustic) - Bonus,Hillsong Worship;Brooke Ligertwood,world-music,0.992
+Bohemian Rhapsody - Remastered 2011,Tourner Dans Le Vide - Version Orchestrale,Indila,french,0.991
+Bohemian Rhapsody - Remastered 2011,Breathe Underwater,Bullet For My Valentine,metalcore,0.984
+Bohemian Rhapsody - Remastered 2011,Daiva Pithave,Don Valiyavelicham;Aju Philip,malay,0.984
+Bohemian Rhapsody - Remastered 2011,醉梦前尘,林志炫,mandopop,0.982
+Enter Sandman,Melancholy Angel,Visions of Atlantis,goth,0.983
+Enter Sandman,Shot in the Dark,Ozzy Osbourne,hard-rock,0.978
+Enter Sandman,Rock Del Pedazo,Ratones Paranoicos,punk-rock,0.978
+Enter Sandman,Must Be Love (feat. Celina Sharma),Blinkie;Celina Sharma,groove,0.975
+Enter Sandman,Dead & Bloated,Stone Temple Pilots,grunge,0.974

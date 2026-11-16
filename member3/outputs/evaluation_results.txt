@@ -1,0 +1,52 @@
+Ratings matrix (20, 493), observed 1600, held-out entries 326
+  k  train RMSE  test RMSE
+  0      0.0000     1.4415
+  1      1.3582     1.4564
+  2      1.2460     1.4309
+  3      1.1411     1.4069
+  4      1.0418     1.3894
+  5      0.9535     1.3611   <-- chosen k
+  6      0.8834     1.3629
+  7      0.8267     1.3734
+  8      0.7616     1.3830
+  9      0.6956     1.3978
+ 10      0.6368     1.4065
+ 11      0.5741     1.4151
+ 12      0.5284     1.4210
+ 13      0.4669     1.4214
+ 14      0.4018     1.4253
+ 15      0.3522     1.4293
+ 16      0.3006     1.4265
+ 17      0.2437     1.4271
+ 18      0.1815     1.4307
+ 19      0.1165     1.4360
+ 20      0.0000     1.4415
+
+Chosen rank k = 5 (smallest k within 1% of best held-out RMSE 1.3611)
+Baseline (k=0, predict each user's mean): held-out RMSE 1.4415; at k=5: 1.3611 (5.6% lower)
+
+=== Spot-check: top-5 cosine neighbours for 3 query songs ===
+
+Query: Shape of You - Ed Sheeran  [pop]
+   Tene                                   Larry Gaaga;Flavour        [dancehall   ] cos=0.984
+   Un Dia Especial                        Dora The Explorer          [kids        ] cos=0.980
+   Go-Go Club - Raw                       Vybz Kartel                [j-dance     ] cos=0.980
+   Brujeria                               El Gran Combo De Puerto Ri [salsa       ] cos=0.980
+   Pop the Bubbles                        Patty Shukla               [kids        ] cos=0.977
+
+Query: Bohemian Rhapsody - Remastered 2011 - Queen  [rock]
+   The Passion (Live Acoustic) - Bonus    Hillsong Worship;Brooke Li [world-music ] cos=0.992
+   Tourner Dans Le Vide - Version Orchest Indila                     [french      ] cos=0.991
+   Breathe Underwater                     Bullet For My Valentine    [metalcore   ] cos=0.984
+   Daiva Pithave                          Don Valiyavelicham;Aju Phi [malay       ] cos=0.984
+   醉梦前尘                                   林志炫                        [mandopop    ] cos=0.982
+
+Query: Enter Sandman - Metallica  [hard-rock]
+   Melancholy Angel                       Visions of Atlantis        [goth        ] cos=0.983
+   Shot in the Dark                       Ozzy Osbourne              [hard-rock   ] cos=0.978
+   Rock Del Pedazo                        Ratones Paranoicos         [punk-rock   ] cos=0.978
+   Must Be Love (feat. Celina Sharma)     Blinkie;Celina Sharma      [groove      ] cos=0.975
+   Dead & Bloated                         Stone Temple Pilots        [grunge      ] cos=0.974
+
+Genre precision@5 (2000 random queries): 0.136   random baseline ~ 0.009
+Cosine vs Euclidean top-5 overlap: 0.63

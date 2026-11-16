@@ -1,0 +1,9 @@
+A =
+Matrix([[1, 2, 5], [2, 1, 4], [0, 3, 6], [3, 3, 9]])
+
+RREF =
+Matrix([[1, 0, 1], [0, 1, 2], [0, 0, 0], [0, 0, 0]])
+
+Pivot columns: (0, 1), rank = 2
+Null-space vector: [-1, -2, 1]
+Interpretation: col3 = col1 + 2*col2, so rank 2 < 3.
